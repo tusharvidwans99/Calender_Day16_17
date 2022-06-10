@@ -15,7 +15,7 @@ namespace Calender_Day16_17
 
         public void calendarSetup()
         {
-            Console.WriteLine("Enter Month : ");
+            Console.WriteLine("Enter Month in Text full format : ");
             month = Console.ReadLine().ToLower(CultureInfo.CurrentCulture);
             Console.WriteLine("Enter year : ");
             int year = Convert.ToInt32(Console.ReadLine());
